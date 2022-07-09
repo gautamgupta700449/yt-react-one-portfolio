@@ -9,7 +9,7 @@ const About = () => {
       name="about"
       className="  h-full w-full bg-gradient-to-b from-gray-700 to-white "
     >
-      <h1 className=" text-center border-b-2 font-bold text-3xl text-black py-4">
+      <h1 className=" text-center border-b-2 font-bold text-3xl text-white py-4">
         About <span className="text-yellow-700 border-orange-500">Me</span>
       </h1>
       <div className=" flex items-center justify-center flex-wrap py-4 px-0">
