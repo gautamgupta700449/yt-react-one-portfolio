@@ -9,7 +9,7 @@ const Contact = () => {
   return (
     <div
       name="contact"
-      className=" h-[100%] w-full bg-gradient-to-b from-gray-800 to-white"
+      className=" h-screen w-full bg-gradient-to-b from-gray-800 to-white"
     >
       <div className=" h-full w-full mx-auto py-4 md:flex-row">
       <h1 className=" py-8 border-b-2  font-bold text-4xl text-white text-center">
@@ -39,7 +39,7 @@ const Contact = () => {
                 </span>
                 7004498673
               </h3>
-              <h3 className="flex items-center py-4">
+              <h3 className="flex items-center py-2">
                 <span className=" text-yellow-800 pr-4">
                   <GoLocation />
                 </span>
@@ -47,40 +47,45 @@ const Contact = () => {
               </h3>
             </div>
           </div>
-          <div className=" flex-1 justify-center items-center  flex-col pl-48 pb-4">
+          <div className=" flex-1 justify-center items-center md:flex  flex-col pl-48 pb-4">
             <form
               action="https://getform.io/f/723e4629-f996-4492-aa74-bb5dbb32400d"
               method="post"
               className=" "
             >
               <input
-                className=" flex justify-center items-center m-8 p-2  text-[1.5rem] mr-36 ml-[-6rem] w-[100%]"
+                className=" flex justify-center items-center border-2 border-gray-400 m-8 p-2  text-[1.5rem] mr-36 ml-[-5rem] w-[90%]"
                 type="username"
                 name="name"
                 id="name"
-                placeholder="Your Name"
-              />
+                placeholder="Your Name" required
+                autocomplete="off" />
+      
               <input
-                className=" flex justify-center items-center m-8 p-2 text-[1.5rem] mr-[28rem] ml-[-6rem]  w-[100%]"
+                className=" flex justify-center items-center border-2 border-gray-400 m-8 p-2 text-[1.5rem] mr-[28rem] ml-[-5rem]  w-[90%]"
                 type="username"
                 name="email"
                 id="email"
-                placeholder="Enter Email"
-              />
+                placeholder="Enter Email" required
+                autocomplete="off" />
+            
               <input
-                className=" flex justify-center items-center m-8 p-2 text-[1.5rem] mr-[28rem] ml-[-6rem]  w-[100%]"
+                className=" flex justify-center items-center border-2 border-gray-400 m-8 p-2 text-[1.5rem] mr-[28rem] ml-[-5rem]  w-[90%]"
                 type="number"
                 name="number"
                 id="number"
-                placeholder="Your Number"
+                placeholder="Your Number" required
+                autocomplete="off" 
               />
               <textarea
-                className=" flex justify-center items-center m-2 p-2 text-[1.5rem]  ml-[-6rem]  w-[100%]"
+               className="flex justify-center items-center border-2 border-gray-400 m-8 p-2 text-[1.5rem] mr-[28rem] ml-[-5rem]  w-[90%]"
                 name="message"
                 id="msg"
                 placeholder="Enter message"
                 cols="20"
                 rows="5"
+                required
+            
               ></textarea>
               <button
                 className=" w-fit  px-6 py-3 my-2  flex items-center rounded-lg bg-gradient-to-r from-cyan-900 to-blue-800 cursor-pointer hover:scale-90 first-letter: text-white"

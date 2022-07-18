@@ -12,16 +12,18 @@ const About = () => {
       <h1 className=" text-center border-b-2 font-bold text-3xl text-white py-4">
         About <span className="text-yellow-700 border-orange-500">Me</span>
       </h1>
-      <div className=" flex items-center justify-center flex-wrap py-4 px-0">
-        <p className=" text-white text-2xl p-[2rem]">
+      <div className=" flex justify-center items-center flex-wrap p-8">
+        <p className=" text-white text-2xl tracking-wider font-serif">
           I enjoy being challenged and engaging with projects that require me to
           work outside my comfort and knowledge set, as continuing to learn new
-          languages and development techniques are important to me I'm big on
-          frontend web, serverless. Experience in Web app, Static Site
+          languages and development techniques are important to me.
+        <br />
+        <br />
+          I'm big on frontend web, serverless. Experience in Web app, Static Site
           generation, Server Side rendering, Rest API, Jamstack, SEO, Firebase
           and highly interactive UI,
-        </p>
-        <div className=" py-8 px-4 flex-[1 1 48rem]  pl-24">
+          </p>
+        <div className=" py-8 px-4  z-10 pl-12">
           <h3 className=" text-2xl py-4 font-bold text-yellow-600">
             <span className=" text-black">Name : </span> Gautam kumar Gupta
           </h3>

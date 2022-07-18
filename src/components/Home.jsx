@@ -1,5 +1,5 @@
 import React from "react";
-import HeroImage from "../photo/HeroImage.png";
+import HeroImage from "../photo/HeroImage1.jpg";
 import { MdKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-scroll";
 
@@ -11,14 +11,12 @@ const Home = () => {
     >
       <div className="max-w-screen-lg mx-auto  flex flex-col items-center justify-between h-full px-4 text-white md:flex-row">
         <div className="flex flex-col justify-center h-full">
-          <h2 className="text-4xl sm:text-7xl font-bold">
+          <h2 className="text-4xl sm:text-7xl pt-5 font-bold">
             I'm a Full Stark Developer
           </h2>
 
-          <p className=" text-white text-[1.2rem] font-semibold py-4 max-w-md">
-            Hi, my name is Gautam Kumar Gupta. I work on the modern web and also
-            deal with algorithms, scalability, optimization and dataflow while
-            communicating with backend services.
+          <p className=" text-white text-[1.2rem] font-semibold font-serif py-8 max-w-md">
+          Hi, My name is Gautam kumar gupta. I'm a web developer. who works on various modern, reactive and responsive user interface while also communicating with backend services.
           </p>
           <div>
             <Link
